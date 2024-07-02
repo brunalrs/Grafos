@@ -1,3 +1,5 @@
+# Testando se os grafos satisfazem os Teoremas de Dirac, Ore e Bondy & Chvátal
+
 def grau_vertice(arestas, vertice):
     # Conta quantas arestas estão conectadas ao vértice
     grau = 0
