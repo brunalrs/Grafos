@@ -1,3 +1,12 @@
+# Representação dos Estados do Brasil em grafos, em termos de suas fronteiras, 
+# utilizando 3 formas de representação computacional para um grafo: Matriz de 
+# adjacência, Matriz  e incidência e lista indexada.
+
+# Além disso, é feita a identificação do Estado com maior e menor quantidade de 
+# Vizinhos (Graus Máximo e Mínimo) e, caso ocorra empate, todos são identificados. 
+# Ademais, todos os vizinhos são listados em cada situação anterior. Por fim, a 
+# frequência dos graus dos vértices é calculada.
+
 import matplotlib.pyplot as plt
 # Função para imprimir a matriz de adjacência com nomes alinhados
 def imprime_matriz_adjacencia(fronteiras, estados):
