@@ -46,9 +46,6 @@ def dfs_pilha(grafo: list, vertice_inicial: int) -> list:
     return arvore
 
 
-
-
-
 def ler_grafo_de_arquivo(arquivo):
     grafo = []
     with open(arquivo, 'r') as f:
@@ -58,7 +55,6 @@ def ler_grafo_de_arquivo(arquivo):
                 aresta = tuple(map(int, elementos))
                 grafo.append(aresta)
     return grafo
-
 
 
 arquivo_grafo = "Trabalho 05/arquivo.txt"
