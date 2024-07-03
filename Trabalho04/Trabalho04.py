@@ -75,7 +75,6 @@ def desenha_arvore(arvore, profundidade, raiz):
     plot.save(f"Raiz-{raiz}.png")
 
 
-
 def menor_caminho(arvore, raiz, destino):
     raiz = int(raiz) - 1
     destino = int(destino) - 1
