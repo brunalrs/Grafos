@@ -95,7 +95,6 @@ arestas4 = [(1, 2), (1, 3), (1, 6), (1, 7),
             (6, 7)]
 
 
-
 if verifica_dirac(vertices, arestas4):
     print("O grafo satisfaz o Teorema de Dirac.")
 else:
