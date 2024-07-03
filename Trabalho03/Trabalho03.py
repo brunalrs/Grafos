@@ -12,7 +12,6 @@ def grau_vertice(arestas, vertice):
             grau += 1
     return grau
 
-
 def verifica_grafo(vertices, arestas):
     vertices_impares = []
     n = len(vertices)
