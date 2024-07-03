@@ -14,6 +14,7 @@ def ler_grafo(arquivo):
             # print(grafo)
     return grafo
 
+
 def dijkstra(grafo, inicio):
     N = set()  # Conjunto de nós processados
     D = {no: float('inf') for no in grafo}  # Inicializa todas as distâncias como infinite
