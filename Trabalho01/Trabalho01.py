@@ -70,8 +70,7 @@ def imprime_matriz_incidencia(fronteiras, estados):
     for linha in matriz_incidencia:
         print(" ".join(f"{celula:<{comprimento_maximo}}" for celula in linha))
 
-# ---- Lista indexada ----
-        
+# ---- Lista indexada ----       
 def alfa(arestas):
     alfa = [0]
     # Verifica se o primeiro elemento da aresta atual é diferente do primeiro elemento da aresta anterior
