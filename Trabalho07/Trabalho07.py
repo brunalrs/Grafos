@@ -33,6 +33,7 @@ def bellmanFord(grafo, vertices, vertice_inicial):
 
     return distancias, predecessores
 
+
 def reconstruir_caminho(predecessores, vertice):
     caminho = []
     while vertice is not None:
